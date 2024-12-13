@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import './Lottery.css';
 import Ball from './Ball'; 
+import './Lottery.css';
 
 class Lottery extends Component 
 {
@@ -15,6 +15,10 @@ class Lottery extends Component
         this.state = { nums: Array.from({length: this.props.numBalls}) };
         this.handleClick = this.handleClick.bind(this);
     }
+    handleClick()
+    {
+        this.generate();
+    }
     generate() 
     {
         this.setState(curState => ({
@@ -22,10 +26,6 @@ class Lottery extends Component
                 n => Math.floor(Math.random() * this.props.maxNum) +1
             )
         }));
-    }
-    handleClick()
-    {
-        this.generate();
     }
     render() 
     {
