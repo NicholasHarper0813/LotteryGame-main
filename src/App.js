@@ -1,10 +1,11 @@
 import React, { Component } from 'react'; 
+import Lottery from './Lottery';
 import Ball from "./Ball"; 
 import "./App.css";
-import Lottery from './Lottery';
 
 class App extends Component {
-  render() { 
+  render() 
+  { 
   return (
     <div className='App'>
       <Lottery />
