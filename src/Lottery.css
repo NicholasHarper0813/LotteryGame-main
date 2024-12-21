@@ -1,4 +1,5 @@
-.Lottery {
+.Lottery 
+{
     border: solid 2px gray;
     padding: 1em 0 2em 0;
     text-align: center;
@@ -7,7 +8,8 @@
     width: 40em;
 }
 
-.Lottery button {
+.Lottery button
+{
     background-color: darkgreen;
     color: white;
     font-size: 120%;
