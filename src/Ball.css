@@ -6,9 +6,9 @@
     height: 2.25em;
     background-color: blue;
     color: white;
-    padding-top: 0.75em;
     margin-right: 0.5em;
-    text-align: center;
+    padding-top: 0.75em;
     display: inline-block;
+    text-align: center;
     border-radius: 50%;
 }
